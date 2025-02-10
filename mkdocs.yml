@@ -107,6 +107,12 @@ markdown_extensions:
       alternate_style: true
 
 plugins:
+  - drawio: # https://github.com/tuunit/mkdocs-drawio
+      viewer_js: "https://viewer.diagrams.net/js/viewer-static.min.js"
+      toolbar: true
+      tooltips: true
+      edit: false
+      border: 30
   - search
   - tags
   - git-revision-date-localized:
