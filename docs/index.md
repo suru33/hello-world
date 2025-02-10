@@ -1,12 +1,17 @@
 # Home
 
-## About me
+Howdy, I’m **Surendra** (aka SuRu). I’m a software engineer living in Helsinki,
+Finland.
 
-Howdy, I’m Surendra (aka SuRu). I’m a software engineer living in Helsinki, Finland.
+[:material-linkedin:](https://www.linkedin.com/in/spolam/)
+[:material-github:](https://github.com/suru33/)
 
-I am a fan of technology, programming, and entrepreneurship.
-
-[:material-email-fast-outline:](mailto:33urus+helloworld@gmail.com)
+<figure markdown="span">
+  ![Helsinki](assets/helsinki.jpg){ loading=lazy }
+  <figcaption>
+    Photo by <a href="https://unsplash.com/@tap5a?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tapio Haaja</a> on <a href="https://unsplash.com/photos/white-concrete-mosque-near-body-of-water-bpDJvls-h-0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </figcaption>
+</figure>
 
 ## Some of my tools
 
