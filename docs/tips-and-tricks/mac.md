@@ -1,4 +1,4 @@
-# MacOS tips and tricks
+# MacOS
 
 ## Show/hide the hidden files
 
