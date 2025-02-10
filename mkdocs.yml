@@ -70,8 +70,8 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
   - https://viewer.diagrams.net/js/viewer-static.min.js
   - extras/js/katex.js
-  - extras/js/drawio-reload.js
 
+#  https://squidfunk.github.io/mkdocs-material/reference/formatting/
 markdown_extensions:
   - admonition
   - abbr
@@ -80,7 +80,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.inlinehilite
-  #  https://squidfunk.github.io/mkdocs-material/reference/formatting/
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -107,17 +106,11 @@ markdown_extensions:
       alternate_style: true
 
 plugins:
-  - drawio: # https://github.com/tuunit/mkdocs-drawio
-      viewer_js: "https://viewer.diagrams.net/js/viewer-static.min.js"
-      toolbar: true
-      tooltips: true
-      edit: false
-      border: 30
   - search
   - tags
+  - open-in-new-tab
   - git-revision-date-localized:
       locale: en
       type: datetime
       exclude:
         - index.md
-  - open-in-new-tab
