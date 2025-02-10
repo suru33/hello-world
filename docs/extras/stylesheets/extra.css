@@ -1,0 +1,13 @@
+.md-footer__inner:not([hidden]) {
+    display: none
+}
+
+.md-nav__link--active {
+    font-weight: bold;
+}
+
+.mxgraph {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
