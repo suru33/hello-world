@@ -48,6 +48,8 @@ theme:
     - content.tabs.link
     - navigation.expand
     - search.share
+    - search.suggest
+    - search.highlight
     - content.code.annotate
     - content.code.copy
   icon:
@@ -61,7 +63,14 @@ theme:
       db: fontawesome/solid/database
 
 extra_css:
-  - stylesheets/extra.css
+  - extras/stylesheets/extra.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - https://viewer.diagrams.net/js/viewer-static.min.js
+  - extras/js/katex.js
+  - extras/js/drawio-reload.js
 
 markdown_extensions:
   - admonition
@@ -98,6 +107,12 @@ markdown_extensions:
       alternate_style: true
 
 plugins:
+  - drawio: # https://github.com/tuunit/mkdocs-drawio
+      viewer_js: "https://viewer.diagrams.net/js/viewer-static.min.js"
+      toolbar: true
+      tooltips: true
+      edit: false
+      border: 30
   - search
   - tags
   - git-revision-date-localized:
@@ -105,3 +120,4 @@ plugins:
       type: datetime
       exclude:
         - index.md
+  - open-in-new-tab
